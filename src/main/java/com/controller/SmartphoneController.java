@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/smartphones")
+@CrossOrigin("*")
 public class SmartphoneController {
     @Autowired
     private ISmartphoneService smartphoneService;
